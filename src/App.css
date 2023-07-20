@@ -1,0 +1,52 @@
+.App {
+  padding: 4%;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+.header {
+  box-shadow: 0px 1px #ddd;
+}
+.header--image {
+  padding: 10px;
+}
+.image {
+  margin: auto;
+  width: 50%;
+  padding: 4%;
+}
+.image--image{
+  width: 92%;
+  height: 100%;
+}
+.info--text{
+  width: 90%;
+}
+.cards{
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+.card{
+  position: relative;
+  padding-right: 20px;
+}
+.card--image{
+  width: 200px;
+  height: 270px;
+}
+.greys{
+  font-weight: normal;
+  color: #666;
+}
+.status{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+}
+.badges{
+  display: flex;
+  align-items: center;
+}
